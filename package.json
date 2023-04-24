@@ -1,8 +1,8 @@
 {
   "name": "october-theme",
   "displayName": "October Theme",
-  "description": "",
-  "version": "0.0.3",
+  "description": "A warm dark theme 🍂☕️",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.77.0"
   },
