@@ -1,0 +1,167 @@
+{
+  "name": "October",
+  "colors": {
+    "editor.background": "#16161d",
+    "editor.foreground": "#e4e0e0",
+    "sideBarTitle.foreground": "#e4e0e0",
+    "list.warningForeground": "#e4e0e0",
+    "activityBarBadge.background": "#e4e0e0",
+    "activityBarBadge.foreground": "#111",
+    "activityBar.background": "#16161d",
+    "activityBar.border": "#595a63",
+    "sideBar.border": "#595a63",
+    "sideBar.background": "#16161d",
+    "sideBarSectionHeader.border": "#595a63",
+    "sideBarSectionHeader.background": "#16161d",
+    "titleBar.inactiveBackground": "#16161d",
+    "titleBar.activeBackground": "#16161d",
+    "gitDecoration.modifiedResourceForeground": "#64a0e5",
+    "gitDecoration.untrackedResourceForeground": "#73cd86",
+    "gitDecoration.deletedResourceForeground": "#c66b6b",
+    "editorGutter.addedBackground": "#5c785f",
+    "diffEditor.insertedLineBackground": "#2b3e2d",
+    "diffEditor.insertedTextBackground": "#375639",
+    "editorGutter.deletedBackground": "#c66b6b",
+    "diffEditor.removedLineBackground": "#592d2d",
+    "diffEditor.removedTextBackground": "#8d4444",
+    "editorGutter.modifiedBackground": "#94a7bd",
+    "tab.inactiveBackground": "#16161d",
+    "tab.activeBackground": "#111",
+    "focusBorder": "#e4e0e0",
+    "list.activeSelectionBackground": "#111",
+    "list.inactiveSelectionBackground": "#111",
+    "statusBar.background": "#111",
+    "list.hoverBackground": "#111",
+    "input.background": "#111",
+    "input.placeholderForeground": "#bab6b6",
+    "input.foreground": "#e4e0e0",
+    "inputOption.activeBorder": "#00000000",
+    "inputOption.activeBackground": "#414170",
+    "editorWidget.background": "#16161d",
+    "editorWidget.border": "#58586c",
+    "editorSuggestWidget.selectedBackground": "#2f2f3b",
+    "quickInput.background": "#16161d",
+    "quickInputList.focusBackground": "#2f2f3b",
+    "button.background": "#e4e0e0",
+    "button.foreground": "#111",
+    "textLink.foreground": "#7f7fc8",
+    "textLink.activeForeground": "#7f7fc8",
+    "editorWarning.foreground": "#c9a88b"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#5b5e6b"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": ["entity.name.function"],
+      "settings": {
+        "foreground": "#fadc83"
+      }
+    },
+    {
+      "name": "Variables, JSON keys, other keyword definitions",
+      "scope": [
+        "variable",
+        "string.json.comments",
+        "support.type.property-name.json",
+        "keyword.other.definition"
+      ],
+      "settings": {
+        "foreground": "#fca664"
+      }
+    },
+    {
+      "name": "Object member",
+      "scope": ["meta.object-literal.key"],
+      "settings": {
+        "foreground": "#e5c2a8"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": ["constant"],
+      "settings": {
+        "foreground": "#f75d49"
+      }
+    },
+    {
+      "name": "Types",
+      "scope": [
+        "meta.type.annotation",
+        "entity.name.type",
+        "meta.type.parameters"
+      ],
+      "settings": {
+        "foreground": "#e3958c"
+      }
+    },
+    {
+      "name": "Simple strings, headings",
+      "scope": ["string.quoted", "string.template", "heading"],
+      "settings": {
+        "foreground": "#92df81"
+      }
+    },
+    {
+      "name": "RegExp",
+      "scope": ["string.regexp"],
+      "settings": {
+        "foreground": "#80dfb1"
+      }
+    },
+    {
+      "name": "Links",
+      "scope": ["meta.link"],
+      "settings": {
+        "foreground": "#7f7fc8"
+      }
+    },
+    {
+      "name": "Markup code/inline",
+      "scope": ["markup.fenced_code", "markup.inline"],
+      "settings": {
+        "foreground": "#909094"
+      }
+    },
+    {
+      "name": "Tags",
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#fbbd8e"
+      }
+    },
+    {
+      "name": "Tag attributes",
+      "scope": ["meta.tag.attributes"],
+      "settings": {
+        "foreground": "#cb9e7b"
+      }
+    },
+    {
+      "name": "Storage types",
+      "scope": ["storage"],
+      "settings": {
+        "foreground": "#fa8383"
+      }
+    },
+    {
+      "name": "Keyword control",
+      "scope": ["keyword.control"],
+      "settings": {
+        "foreground": "#fb97fa"
+      }
+    },
+    {
+      "name": "Keyword op",
+      "scope": ["keyword.operator"],
+      "settings": {
+        "foreground": "#f2c4f1"
+      }
+    }
+  ]
+}

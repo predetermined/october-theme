@@ -1,0 +1,21 @@
+{
+  "name": "october-theme",
+  "displayName": "October Theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "October",
+        "uiTheme": "vs-dark",
+        "path": "./themes/October-color-theme.json"
+      }
+    ]
+  }
+}
