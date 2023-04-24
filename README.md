@@ -1,6 +1,6 @@
 # October Theme
 
-[Github](https://github.com/grayliquid/october-theme) • [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=l5d.october-theme)
+[GitHub](https://github.com/grayliquid/october-theme) • [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=l5d.october-theme)
 
 A warm VS Code dark theme. 🍂☕️
 
