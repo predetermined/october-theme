@@ -2,7 +2,7 @@
   "name": "october-theme",
   "displayName": "October Theme",
   "description": "A warm dark theme 🍂☕️",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "engines": {
     "vscode": "^1.77.0"
   },
@@ -23,5 +23,11 @@
         "path": "./themes/October-color-theme.json"
       }
     ]
-  }
+  },
+  "keywords": [
+    "October",
+    "Theme",
+    "October Theme"
+  ],
+  "license": "GPLv3"
 }
