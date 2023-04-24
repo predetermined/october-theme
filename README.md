@@ -2,7 +2,7 @@
 
 A warm VSCode dark theme. 🍂☕️
 
-![Screenshot of example code in combination with the October theme - a lot of warm colors, mostly red and orage.](screenshot.png)
+![Screenshot of example code in combination with the October theme - a lot of warm colors, mostly red and orage.](https://raw.githubusercontent.com/grayliquid/october-theme/main/screenshot.png)
 
 ## Contributing
 

@@ -2,7 +2,7 @@
   "name": "october-theme",
   "displayName": "October Theme",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.77.0"
   },
@@ -13,6 +13,8 @@
     "type": "git",
     "url": "https://github.com/grayliquid/october-theme"
   },
+  "publisher": "l5d",
+  "icon": "icon.png",
   "contributes": {
     "themes": [
       {
