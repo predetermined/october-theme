@@ -15,7 +15,7 @@
     "sideBarSectionHeader.background": "#16161d",
     "titleBar.inactiveBackground": "#16161d",
     "titleBar.activeBackground": "#16161d",
-    "gitDecoration.modifiedResourceForeground": "#64a0e5",
+    "gitDecoration.modifiedResourceForeground": "#7eaee4",
     "gitDecoration.untrackedResourceForeground": "#73cd86",
     "gitDecoration.deletedResourceForeground": "#c66b6b",
     "editorGutter.addedBackground": "#5c785f",
