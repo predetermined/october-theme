@@ -162,6 +162,13 @@
       "settings": {
         "foreground": "#f2c4f1"
       }
+    },
+    {
+      "name": "text",
+      "scope": ["text"],
+      "settings": {
+        "foreground": "#c0c3cd"
+      }
     }
   ]
 }
