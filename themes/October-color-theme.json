@@ -76,7 +76,7 @@
       }
     },
     {
-      "name": "Object member",
+      "name": "Object key",
       "scope": ["meta.object-literal.key"],
       "settings": {
         "foreground": "#e5c2a8"
@@ -91,11 +91,7 @@
     },
     {
       "name": "Types",
-      "scope": [
-        "meta.type.annotation",
-        "entity.name.type",
-        "meta.type.parameters"
-      ],
+      "scope": ["meta.type", "entity.name.type"],
       "settings": {
         "foreground": "#e3958c"
       }
