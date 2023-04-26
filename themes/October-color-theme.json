@@ -46,7 +46,9 @@
     "button.foreground": "#111",
     "textLink.foreground": "#7f7fc8",
     "textLink.activeForeground": "#7f7fc8",
-    "editorWarning.foreground": "#c9a88b"
+    "editorWarning.foreground": "#c9a88b",
+    "editorInlayHint.background": "#333",
+    "editorInlayHint.foreground": "#e4e0e0"
   },
   "tokenColors": [
     {
@@ -58,7 +60,7 @@
     },
     {
       "name": "Functions",
-      "scope": ["entity.name.function"],
+      "scope": ["entity.name.function", "meta.function.definition"],
       "settings": {
         "foreground": "#fadc83"
       }
@@ -90,22 +92,29 @@
       }
     },
     {
+      "name": "Classes, namespaces",
+      "scope": ["entity.name.type.class", "entity.name.namespace"],
+      "settings": {
+        "foreground": "#b5b4ff"
+      }
+    },
+    {
       "name": "Types",
-      "scope": ["meta.type", "entity.name.type"],
+      "scope": ["meta.type", "entity.name.type", "support.type"],
       "settings": {
         "foreground": "#e3958c"
       }
     },
     {
-      "name": "Simple strings, headings",
-      "scope": ["string.quoted", "string.template", "heading"],
+      "name": "Strings, headings",
+      "scope": ["string.quoted", "string.template", "string.regexp", "heading"],
       "settings": {
         "foreground": "#92df81"
       }
     },
     {
-      "name": "RegExp",
-      "scope": ["string.regexp"],
+      "name": "Attributes",
+      "scope": ["meta.attribute"],
       "settings": {
         "foreground": "#80dfb1"
       }
@@ -146,8 +155,8 @@
       }
     },
     {
-      "name": "Keyword control",
-      "scope": ["keyword.control"],
+      "name": "Keyword control, other keywords",
+      "scope": ["keyword.control", "keyword.other"],
       "settings": {
         "foreground": "#fb97fa"
       }
