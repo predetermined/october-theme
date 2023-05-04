@@ -54,6 +54,16 @@
   },
   "tokenColors": [
     {
+      "name": "Base",
+      "scope": [
+        /* let x = `${test}` */ "string.template meta.template.expression",
+        /* type T = X<unknown> */ "meta.type punctuation"
+      ],
+      "settings": {
+        "foreground": "#d0d0de"
+      }
+    },
+    {
       "name": "Comments",
       "scope": ["comment"],
       "settings": {
@@ -102,7 +112,12 @@
     },
     {
       "name": "Types",
-      "scope": ["meta.type", "entity.name.type", "support.type"],
+      "scope": [
+        "meta.type",
+        "entity.name.type",
+        "support.type",
+        "meta.interface entity.other.inherited-class"
+      ],
       "settings": {
         "foreground": "#e3958c"
       }
